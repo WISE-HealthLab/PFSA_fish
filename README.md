@@ -1,11 +1,9 @@
 # Risks of Per- and Polyfluoroalkyl Substance Exposure Through Marine Fish Consumption
 
 ---
-This repository contains the code used in the study "Risks of Per- and Polyfluoroalkyl Substance (PFAS) Exposure Through Marine Fish Consumption."
+This repository contains the data and code used in the study "`Risks of Per- and Polyfluoroalkyl Substance (PFAS) Exposure Through Marine Fish Consumption`".
 
 # Contents
-Data Processing: Scripts for preprocessing fisheries-related data and calculating country-specific EDI of PFAS compounds based on production, trade, and concentration data.
-
-BAF Modeling: Code for training a Random Forest (RF) model to estimate Bioaccumulation Factors (BAFs) of various PFAS in marine species.
-
-Food Web Modeling: Implementation of a food web model to simulate PFAS bioaccumulation and trophic biomagnification.
+- **Food Web Modeling:** Input data, output data, and code used to predict PFAS concentrations in marine fish at a spatial resolution of 1°×1° latitude/longitude.
+- **BAF Modeling**: Modeling data, output data, and code for training a Random Forest (RF) model to estimate the Bioaccumulation Factors (BAFs) of various PFAS in marine species, at a resolution of 1°×1° latitude/longitude.
+- **Estimated daily intake**: Input data, output data and used to calculate the estimated daily intake of PFAS by populations under both the ‘trade’ and ‘no-trade’ scenarios.
